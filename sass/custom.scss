@@ -1,0 +1,56 @@
+// Import the font-family
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500;900&display=swap');
+// Import the font-family
+
+$font-family-base: 'Roboto Slab', serif;
+$enable-negative-margins: true;
+
+// Import the scss styles
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Import the scss styles
+
+// Custom scustometyles
+.bg-blue-700{
+    background-color: $blue-700;
+}
+.bg-teal-400{
+    background-color: $teal-400;
+}
+.nav-form-control{
+    background-color: $blue-700;
+}
+.header-index-background{
+    background-image: url('../resources/header-index-img.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+@include media-breakpoint-up(md) {
+    .header-index-background{
+        height: 400px;
+    }
+}
+.header-services-background{
+    background-image: url('../resources/header-services-img.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+@include media-breakpoint-up(md) {
+    .header-services-background{
+        height: 400px;
+    }
+}
+.header-contact-background{
+    background-image: url('../resources/header-contact-img.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+@include media-breakpoint-up(md) {
+    .header-contact-background{
+        height: 400px;
+    }
+}
+
+// Custom scustometyles
